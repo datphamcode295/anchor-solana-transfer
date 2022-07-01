@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.localnet]
+token_contract = "2G8x3BXtSi7WH665ggtkv2xKuWrf4iZ2QiDpAWcQRBpY"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/datpham/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
